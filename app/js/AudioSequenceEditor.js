@@ -435,7 +435,7 @@ function AudioLayerSequenceEditor(elementContext)
         canvasContext.font = 'italic 40px Calibri';
         canvasContext.textAlign = 'center';
         canvasContext.textBaseline = "middle"
-        this.paintTextWithShadow("Drag audio file here to edit", canvasContext.canvas.clientWidth / 2.0, canvasContext.canvas.clientHeight / 2.0, "rgba(0,0,0,1)", canvasContext);
+        this.paintTextWithShadow("拖动音频文件到此处", canvasContext.canvas.clientWidth / 2.0, canvasContext.canvas.clientHeight / 2.0, "rgba(0,0,0,1)", canvasContext);
         
         canvasContext.font = oldFont;
         canvasContext.textAlign = 'left';
